@@ -1,0 +1,21 @@
+{
+  "name": "Ransara-MD",
+  "description": "Javascript WhatsApp bot made by Ransara",
+  "logo": "https://telegra.ph/file/38a4ba6f7a51c15f5feaf.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=VAYxmDaa#nldXbHVb8ar8KIdK0cWrPkCfDuN8onEmMt-pEHfPhj",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
